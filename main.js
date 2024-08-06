@@ -19,6 +19,7 @@ function pAequorFactory(a, b){
              dna: b,
              mutate(){
               console.log(b)
+	      console.log('Edited this on github');
               let randomizer = Math.floor(Math.random()*15);
               let selector = this.dna[randomizer];
               let selector2 =0;
@@ -96,12 +97,4 @@ while (counter < 30){
   }
 }
 console.log(storer);
-
-
-
-
-
-
-
-
 
